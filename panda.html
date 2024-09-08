@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="icon" href="doruu.png">
+<head>
+    <style>
+        body{
+            background-image: url(nature.jpg);
+            background-repeat: no-repeat;
+            
+        }
+        .face{
+            background-color: aliceblue;
+            height: 300px;
+            width: 400px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            border-radius: 49% 51% 44% 56% / 65% 64% 36% 35%  ;
+            z-index: 1;
+        }
+        .ear1{
+            background-color: black;
+            height: 130px;
+            width: 120px;
+            border-radius: 52% 48% 46% 54% / 67% 61% 39% 33% ;
+            position: relative;
+            top: 90px;
+            left: 70px;
+        }
+        .ear2{
+            background-color: black;
+            height: 130px;
+            width: 120px;
+            border-radius: 52% 48% 46% 54% / 67% 61% 39% 33% ;
+            position: relative;
+            bottom: 50px;
+            left: 370px;
+        }
+        .eye1{
+            height: 120px;
+            width: 120px;
+            background-color: black;
+            border-radius: 84% 16% 73% 27% / 68% 18% 82% 32% ;
+            position: relative;
+            left: 50px;
+            top: 30px;
+        }
+        .eye2{
+            height: 120px;
+            width: 120px;
+            background-color: black;
+            border-radius: 17% 83% 27% 73% / 14% 73% 27% 84%  ;
+            position: relative;
+            left: 220px;
+            bottom: 90px;
+        }
+        .nose{
+            height:65px ;
+            width: 65px;
+            border-radius: 50px;
+            background-color:black ;
+            position: relative;
+            bottom: 155px;
+            left: 160px;
+        }
+        .l1{
+            height: 30px;
+            width: 30px;
+            background-color: pink;
+            position: relative;
+            border-radius: 15px;
+            bottom: 110px;
+            left: 50px;
+            z-index: -1;
+        }
+        .l2{
+            height: 30px;
+            width: 30px;
+            background-color: pink;
+            position: relative;
+            border-radius: 15px;
+            bottom: 145px;
+            left: 320px;
+            z-index: -1;
+        }
+        .e1{
+            background-color: aliceblue;
+            height: 30px; 
+            width: 30px;
+            border-radius: 50% 50% 44% 56% / 53% 50% 50% 47% ;
+            position: relative;
+            top: 10px;
+            left: 70px;
+        }
+        .e2{
+            background-color: aliceblue;
+            height: 30px; 
+            width: 30px;
+            border-radius: 50% 50% 44% 56% / 53% 50% 50% 47% ;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .u1{
+            position: relative;
+            height: 40px;
+            width: 50px;
+            background-color: aliceblue;
+            border-radius: 53% 47% 45% 55% / 0% 0% 100% 100% ;
+            border-color: black;
+            border-style: solid;
+            border-width: 5px;
+            border-top: none;
+            bottom: 165px;
+            left: 130px;
+            z-index: -1;
+        }
+        .u2{
+            position: relative;
+            height: 40px;
+            width: 50px;
+            background-color: aliceblue;
+            border-radius: 53% 47% 45% 55% / 0% 0% 100% 100% ;
+            border-color: black;
+            border-style: solid;
+            border-top: none;
+            border-width: 5px;
+            bottom: 210px;
+            left: 200px;
+            z-index: -1;
+        }
+        .b{
+            background-color: black;
+            border-radius: 49% 51% 44% 56% / 65% 64% 36% 35%;
+            height: 200px ;
+            width: 400px;
+            z-index: -1;
+            left :95px;
+            position: relative;
+        }
+        .s{
+            height: 450px;
+            width: 400px;
+            position: relative;
+            background-color:aliceblue;
+            border-radius:49% 51% 44% 56% / 65% 64% 36% 35% ;
+            bottom: 150px;
+            left: 100px;
+            z-index: -2;
+            border-style: solid;
+            border-color:  black;
+            border-width: 5px;
+        }
+        .h1{
+            height: 200px;
+            width: 150px;
+            position: relative;
+            z-index: -1;
+            background-color:black;
+            border-radius:49% 51% 44% 56% / 65% 64% 36% 35% ;
+            bottom: 280px;
+            left: 150px;
+            z-index: -3;
+            border-style: solid ;
+            border-color: black;
+            border-width: 5px;
+
+
+        }
+        .h2{
+            height: 200px;
+            width: 150px;
+            position: relative;
+            z-index: -1;
+            background-color:black;
+            border-style: solid;
+            border-color:  black;
+            border-radius:49% 51% 44% 56% / 65% 64% 36% 35% ;
+            bottom: 480px;
+            left: 315px; 
+            z-index: -3;
+            border-width: 5px;
+
+        }
+       
+        
+         
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="ear1"></div>
+    <div class="ear2"></div>
+    <div class="face">
+        <div class="eye1">
+            <div class="e1"></div>
+        </div>
+        <div class="eye2">
+            <div class="e2"></div>
+        </div>
+        <div class="l1"></div>
+        <div class="l2"></div>
+        <div class="nose"></div>
+        <div class="u1"></div>
+        <div class="u2"></div>
+    </div>
+    <div class="b"></div>
+    <div class="s"></div>
+    <div class="h1"></div>
+    <div class="h2"></div>
+    
+</body>
+</html>
