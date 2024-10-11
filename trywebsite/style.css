@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    /* gap: 10px; */
+    display: grid;
+    grid-template-areas:"side header header header header header header header header"
+                         "side main main main main main main main main"  ;
+}
+.part{
+    background-color: aquamarine;
+    height: 100px;
+    border: 1px solid black;margin: 2px;
+    padding: 5px;
+    
+}
+#p1{
+    color: white;
+    grid-area: side;
+    width: 200px;
+    padding:  20px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.btn{
+    background-color: red;
+    border: none;
+    justify-content: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+}
+.ri-star-line{
+    font-weight: 700;
+    font-size: 16px;
+}
+.ri-movie-line{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+.ri-tv-2-line{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+.ri-tv-line{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+.ri-calendar-todo-line{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+.ri-mail-open-fill{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    }
+    .btn1{
+        background-color:black;
+        border: solid white;
+        justify-content: center;
+        padding: 5px 5px;
+        border-radius: 10px;
+        font-weight: 800;
+        color: white; 
+    }
+    .note{
+        position: absolute;
+        bottom: 30px;
+    }
+#p2{
+    grid-area: header;
+    background-color:black ;
+    color: rgb(236, 228, 228);
+    height: 10px;
+    max-width:1040px ;
+    padding: 30px;
+}
+.ri-user-search-line{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+.show{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    text-shadow: left grey;
+    color: rgb(230, 222, 222);
+    position: absolute;
+    text-align: center;
+}
+#p3{
+    grid-area: main;
+    background-color: black;
+    border: 3px solid white;
+    height: 500px;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);   
+}
+#b1{
+    height: 250px;
+    width: 200px;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.rR-Rw8UayOji455velxV1wHaLH&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b2{
+    height: 280px;
+    width: 200px;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.Tcrx2XtyPgNt5fTv9M_pGAHaKX&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b3{
+    height: 300px;
+    width: 180px;
+    background-image: url(https://www.hiptoro.com/wp-content/uploads/2023/09/Popular-movies-2024.webp?width=1020&height=720);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#b4{
+    height: 280px;
+    width: 200px;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.zDbacg1aDXpflyr74bS2QAHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b5{
+    height: 300px;
+    width: 200px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.kURk1F8y_iTbMZOaeJtEJwHaLH&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b6{
+    height: 180px;
+    width: 200px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Rz2paL90kHh5jY4ehg7nGQHaHa&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b7{
+    height: 180px;
+    width: 200px;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.4LghctcGIXbP1oIyYijbAgHaJQ&pid=Api&P=0&h=180);
+   
+}
+#b8{
+    height: 150px;
+    width: 200px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Zl88HNGRpt-A_NkHi85UdwHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b9{
+    height: 180px;
+    width: 200px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.vtY-T6GhvozqSLPGMCGHeAHaE2&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#b10{
+    height: 150px;
+    width: 200px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.4F22_8JZEhF3Z8W0oDBODwHaDt&pid=Api&P=0&h=180);
+    /* background-image:url( https://tse4.mm.bing.net/th?id=OIP.4sdRf4lstlfQrQSoG38zIAHaEK&pid=Api&P=0&h=180); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

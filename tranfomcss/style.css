@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+.flower{
+    background:  linear-gradient( 117.8deg,  rgba(240,19,77,1) 22.2%, rgba(228,0,124,1) 88.7% );
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 19% 81% 2% 98% / 16% 100% 0% 84%  ;
+    transform-origin: top left;
+}
+
+@keyframes vaishnavi{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#f1{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#f2{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#f3{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#f4{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#f5{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#f6{
+    animation-name: vaishnavi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}

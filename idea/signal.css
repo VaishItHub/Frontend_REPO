@@ -1,0 +1,64 @@
+body{
+    height: 100%;width: 100%;display: flex;justify-content: center;align-items: center;
+}
+.borad{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.stop{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    animation:stop 9s infinite;
+    margin: 5px;
+
+}
+.wait{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation:wiat 9s infinite;
+    animation-delay: 3s;
+    margin: 5px;
+}
+.go{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    animation:go  9s infinite;
+    animation-delay: 6s;
+}
+@keyframes stop{
+    0%,49%{
+        background-color: red;
+    }
+    50%,100%{
+        background-color: black;
+    }
+}
+@keyframes wait{
+    0%,49%{
+        background-color: yellow;
+    }
+    50%,100%{
+        background-color: black;
+    }
+}
+@keyframes go{
+    0%,49%{
+        background-color: green;
+    }
+    50%, 100%{
+        background-color: black;
+    }
+}

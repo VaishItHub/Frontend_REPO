@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    top: 170px;
+    left: 155px;
+    height: 350px;
+    width: 350px;
+}
+#b1{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    animation: vaishnavi ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4.8 ;
+    animation-delay: 1.8s;
+    
+}
+#b2{
+    position: absolute;
+    left: 185px;
+    height: 320px;
+    width: 320px;
+    background-color:black;
+    animation: vaishnavi ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4.4;
+    animation-delay: 1.7s;
+}
+#b3{
+    position: absolute;
+    margin-top: 15px;
+    left: 200px;
+    height: 280px;
+    width: 280px;
+    background-color:white;
+    animation: vaishnavi ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4.2;
+    animation-delay: 1.6s;
+}
+#b4{
+    position: absolute;
+    margin-top: 15px;
+    left: 200px;
+    height: 280px;
+    width: 280px;
+    background-color:white;
+    animation: vaishnavi ease-in-out;
+
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+    animation-delay: 1.5s;
+}
+#b5{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 240px;
+    width: 240px;
+    background-color:black;
+    animation: vaishnavi ease-in-out;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3.8;
+    animation-delay: 1.4s;
+}
+ #b6{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+    background-color:white;
+    animation: vaishnavi ease-in-out;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3.6;
+    animation-delay: 1.3s;
+}
+
+#b7{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 110px;
+    height: 160px;
+    width: 160px;
+    background-color:black;
+    animation: vaishnavi ease-in-out;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3.4;
+    animation-delay: 1.2s;
+}
+
+#b8{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 130px;
+    height: 120px;
+    width: 120px;
+    background-color:white;
+    animation: vaishnavi ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3.2;
+    animation-delay: 1.1s;
+}
+
+#b9{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 150px;
+    height: 80px;
+    width: 80px;
+    background-color:black;
+    animation: vaishnavi ease-in-out;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+} 
+@keyframes vaishnavi{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

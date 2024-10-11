@@ -1,0 +1,23 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.freeimages.com/images/large-previews/d8d/road-directions-1227707.jpg);
+}
+/* .box{
+    height: 500px;
+    width: 700px;
+    background-color: black;
+    display: flex;justify-content: center;align-items: center;
+} */
+.car{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/019/545/331/non_2x/race-car-isolated-on-transparent-background-3d-rendering-illustration-free-png.png);
+}

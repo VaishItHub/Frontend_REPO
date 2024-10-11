@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(204,255,255);
+    gap: 20px;
+    display: grid;
+    grid-template-areas: "header header header header"
+                          "aside main main main"
+                          "footer footer footer footer";
+}
+.part{
+    /* background-color: aquamarine; */
+    min-height: 100px;
+    border: 1px solid black;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+}
+.reserve{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reserve>i{
+    font-size: 22px;
+}
+.menu>select,.con{
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+}
+.reserve-btn{
+    background-color: red;
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+}
+.reserve-btn:active{
+    background-color: brown;
+}
+#p1{
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#p2 {
+    grid-area: aside;
+    min-height: 1410px;
+    max-width: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+  }
+  
+  .food-menu {
+    background-color: white;
+    height: 400px;
+    max-width: 300px;
+    display: grid;
+    box-shadow: 0px 0px 10px lightblue;
+  }
+  
+  .menu-header {
+    background-color: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 0px 15px;
+  }
+  .food-menu > .items {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  
+  .food-menu > .items:hover {
+    background-color: #f1f1f1;
+    border-left: 4px solid orangered;
+  }
+  
+  /* --------------------- */
+  
+  .deal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px lightblue;
+  
+  }
+  .deal > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  .deal-header{
+    background-color: orangered;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+  }
+  .size{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .size > div{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px lightblue;
+  }
+  .size > div:nth-child(1){
+    background-color: orangered;
+    color: aliceblue;
+  }
+  .price{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .deal-note{
+    text-align: center;
+  }
+  .poster{
+    background-color: yellow;
+    height: 500px;
+    background-image: url(https://i.pinimg.com/564x/12/ac/60/12ac606896dfc98f4806b7acababed67.jpg);
+    background-size: cover;
+    background-position: center right;
+    box-shadow: 0px 0px 10px lightblue;
+  }
+#p3{
+    grid-area: main;
+    height: 1410px;
+    /* width: 340px; */
+}
+.offer{
+    background-color: black;
+    color: white;
+    height: 430px;
+    background-image: url(./b1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 40px;
+    gap: 20px;
+}
+.offer-note{
+    background-color:orange;
+    padding: 5px 30px;
+    text-transform: uppercase;
+}
+.offer-header{
+    font-size: 70px;
+    font-weight: 700;
+}
+.offer-para{
+    width: 400px;
+}
+.offer-btn{
+    background-color: rgb(244, 82, 23);
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.display{
+    background-color: white;
+}
+.display-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    height: 220px;
+}
+.display-note{
+    background-color: orange;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: white;
+}
+.display-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.display-line{
+    width: 100px;
+    border-radius: 5px;
+    background-origin:  3px solid black;
+}
+.display-para{
+    text-align: center;
+    font-size: 15px;
+}
+.dispaly-icon{
+    display: flex;
+    gap: 20px;
+}
+.dispaly-icon>img{
+    height: 30px;
+}
+.dispaly-icon >img:nth-child(1){
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    height: 40px;
+}
+.popular{
+    height: 320px;
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr) ;
+    gap: 20px;
+    color: white;
+}
+.popular-item1{
+    grid-row:1/3 ;
+    background-image: url(./biriyani.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+.popular-item2{
+    background-image: url(https://i.pinimg.com/564x/a6/08/dc/a608dca35982e969d82c9fbde3ec52a7.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.popular-item3{
+    background-image: url(./leg-piece.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.dispaly-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.card-1{
+    height: 370px;
+    width: 30%;display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+}
+.card-1>img{
+    width: 220px;
+    height: 220px;
+    filter: drop-shadow(0px 0px 15px black);
+}
+.card-1>p{
+    text-align: center;
+    font-size: 12px;
+}
+.ord-btn{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding:10px 70px ;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.ord-btn:active{
+    background-color: orangered;
+}
+
+#p4{
+    grid-area: footer ;
+    height: 300px;
+}
+
+.f-logo{
+    width: 100%;
+    height: 300px;
+    background: rgb(55, 54, 54);
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    color: white;
+
+}
+
+.f-gain{
+    width: 500px;
+}
+
+.f-main{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+.f-main>.ul{
+    border: 3px solid white;
+    height: 300px;
+    border-radius: 5px;
+}
